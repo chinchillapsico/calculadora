@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculashion</title>
+</head>
+<body>
+    <div id="container">
+        <div class="col-12"><input id="inputC" onkeypress="return isNumber(event)"  class="css-input" type="text"></div>
+        <div id="numbers">
+            <div class="col-3">
+                <button class="myButton operator"  value="pow"><em>a</em><sup>2</sup></button>
+            </div>
+            <div class="col-3">
+                <button class="myButton operator"  value="root" >&radic;</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton operator"  id="symbol" value="symbol" >+<sub style="font-size: 18px;">-</sub></button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="ac" id="delete">AC</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="7">7</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="8">8</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="9">9</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="+">+</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="4">4</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="5">5</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="6">6</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="-">-</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="1">1</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="2">2</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="3">3</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton operator" value="&divide;" id="division">&divide;</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="0">0</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton operator" id="multi" value="x" >x</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton" value="." >.</button>
+            </div>
+            <div class="col-3">
+                <button class="myButton"  value="result" id="result">=</button>
+            </div>
+            
+        </div>     
+    </div>    
+</body>
+</html>
